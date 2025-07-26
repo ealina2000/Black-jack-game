@@ -72,3 +72,22 @@ h1 {
     text-align: center;
     padding: 10px 0;
 }
+@media screen and (max-width: 575px) {
+    .main-container {
+        width: 80%;
+    }
+    .main-box {
+        padding: 20px;
+    }
+    h1 {
+        font-size: 24px;
+    }
+    #msg-el, .com-el, #person_el {
+        font-size: 18px;
+    }
+    .btn {
+        width: 100px;
+        font-size: 16px;
+    }
+    
+}
